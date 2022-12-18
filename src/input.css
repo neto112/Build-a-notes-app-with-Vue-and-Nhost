@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	body {
+		font-family: 'montserrat', sans-serif;
+		@apply bg-slate-800 text-white;
+	}
+
+	main {
+		@apply p-6;
+	}
+}
